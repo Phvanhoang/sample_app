@@ -11,7 +11,7 @@ section {
 textarea {
   resize: vertical;
 }
-center {
+center, h1 {
   text-align: center;
 }
 .center h1 {
@@ -107,4 +107,14 @@ input {
 #session_remember_me {
   width: auto;
   margin-left: 0;
+}
+
+.users {
+  list-style: none;
+  margin: 0;
+  li {
+    overflow: auto;
+    padding: 10px 0;
+    border-bottom: 1px solid $gray-lighter;
+  }
 }

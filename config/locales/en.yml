@@ -2,6 +2,8 @@ en:
   sample_app: "Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
   welcome_to_the_sample_app!: "Welcome to the sample app!"
+  previous: "Previous"
+  next: "Next"
   app:
     english: "English"
     vietnamese: "Vietnamese"
@@ -9,6 +11,7 @@ en:
     home_link: "Home"
     help_link: "Help"
     log_in_link: "Log in"
+    users_link: "Users"
     account: "Account"
   home:
     title: "Home"
@@ -34,10 +37,19 @@ en:
     the_form_contains_errors:
       one: "The form contains 1 error"
       other: "The form contains %{count} errors"
-  errors:
     user_not_found!: "User not found!"
-    the_form_contains: "The form contains"
-    error: "error"
+    delete: "Delete"
+    user_deleted_mess: "User deleted"
+    user_deleted_failed: "Delete failed"
+    you_sure?: "You sure?"
+    edit_header: "Update your profile"
+    edit_title: "Edit user"
+    change_gravatar: "Change"
+    save_changes: "Save changes"
+    profile_updated_mess: "Profile updated"
+    index_title: "All users"
+    index_header: "All users"
+    please_log_in: "Please log in"
   sessions:
     log_in: "Log in"
     new_user?: "New user?"
