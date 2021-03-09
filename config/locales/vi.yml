@@ -9,6 +9,7 @@ vi:
     home_link: "Trang chủ"
     help_link: "Trợ giúp"
     log_in_link: "Đăng nhập"
+    account: "Tài khoản"
   home:
     title: "Trang chủ"
     welcome: "Chào mừng đến Sample App"
@@ -35,3 +36,12 @@ vi:
       other: "Biêủ mẫu chứa %{count} lỗi"
   errors:
     user_not_found!: "Không tìm thấy người dùng!"
+    the_form_contains: "Biêủ mẫu chứa"
+    error: "lỗi"
+  sessions:
+    log_in: "Đăng nhập"
+    new_user?: "Chưa có tài khoản?"
+    invalid_email_password_combination: "Email hoặc mật khẩu không đúng"
+    profile: "Cá nhân"
+    settings: "Cài đặt"
+    log_out: "Đăng xuất"

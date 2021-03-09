@@ -15,7 +15,7 @@ class UsersController < ApplicationController
     @user = User.new user_params
     if @user.save
       flash[:success] = t "welcome_to_the_sample_app!"
-      redirect_to @user
+      log_in @user
     else
       render :new
     end
