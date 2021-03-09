@@ -1,6 +1,7 @@
 en:
   sample_app: "Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
+  welcome_to_the_sample_app!: "Welcome to the sample app!"
   app:
     english: "English"
     vietnamese: "Vietnamese"
@@ -22,3 +23,15 @@ en:
                     <a href='http://www.railstutorial.org/help'>%{help_page}</a>.
                     To get help on this sample app, see the
                     <a href='http://www.railstutorial.org/book'><em>Ruby on Rails Tutorial</em> book</a>."
+  users:
+    sign_up: "Sign up"
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    password_confirmation: "Password confirmation"
+    create_account: "Create my account"
+    the_form_contains_errors:
+      one: "The form contains 1 error"
+      other: "The form contains %{count} errors"
+  errors:
+    user_not_found!: "User not found!"

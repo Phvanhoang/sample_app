@@ -1,6 +1,7 @@
 vi:
   sample_app: "Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
+  welcome_to_the_sample_app!: "Chào mừng đến sample app!"
   app:
     english: "Tiếng anh"
     vietnamese: "Tiếng việt"
@@ -22,3 +23,15 @@ vi:
                     <a href='http://www.railstutorial.org/help'>%{help_page}</a>.
                     Để nhận trợ giúp trên sample app, xem sách
                     <a href='http://www.railstutorial.org/book'><em>Ruby on Rails Tutorial</em></a>."
+  users:
+    sign_up: "Đăng kí"
+    name: "Tên"
+    email: "Email"
+    password: "Mật khẩu"
+    password_confirmation: "Xác nhận mật khẩu"
+    create_account: "Tạo tài khoản"
+    the_form_contains_errors:
+      one: "Biêủ mẫu chứa 1 error"
+      other: "Biêủ mẫu chứa %{count} lỗi"
+  errors:
+    user_not_found!: "Không tìm thấy người dùng!"
