@@ -1,0 +1,24 @@
+vi:
+  sample_app: "Sample App"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  app:
+    english: "Tiếng anh"
+    vietnamese: "Tiếng việt"
+  _header:
+    home_link: "Trang chủ"
+    help_link: "Trợ giúp"
+    log_in_link: "Đăng nhập"
+  home:
+    title: "Trang chủ"
+    welcome: "Chào mừng đến Sample App"
+    tutorial: "Bài giảng Ruby on Rails"
+    paragraph_html: "Đây là trang chủ của <a href='ttp://www.railstutorial.org/''>%{tutorial}</a> sample application."
+    sign_up: "Đăng ký ngay!"
+  help:
+    title: "Trợ giúp"
+    header: "Trợ giúp"
+    help_page: "Trang trợ giúp Rails Tutorial"
+    paragraph_html: "Nhận trợ giúp Ruby on Rails Tutorial tại
+                    <a href='http://www.railstutorial.org/help'>%{help_page}</a>.
+                    Để nhận trợ giúp trên sample app, xem sách
+                    <a href='http://www.railstutorial.org/book'><em>Ruby on Rails Tutorial</em></a>."
