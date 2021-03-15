@@ -9,6 +9,7 @@ en:
     home_link: "Home"
     help_link: "Help"
     log_in_link: "Log in"
+    account: "Account"
   home:
     title: "Home"
     welcome: "Welcome to the Sample App"
@@ -35,3 +36,12 @@ en:
       other: "The form contains %{count} errors"
   errors:
     user_not_found!: "User not found!"
+    the_form_contains: "The form contains"
+    error: "error"
+  sessions:
+    log_in: "Log in"
+    new_user?: "New user?"
+    invalid_email_password_combination: "Invalid email and password combination"
+    profile: "Profile"
+    settings: "Settings"
+    log_out: "Log out"
