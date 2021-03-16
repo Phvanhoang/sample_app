@@ -4,6 +4,7 @@ en:
   welcome_to_the_sample_app!: "Welcome to the sample app!"
   previous: "Previous"
   next: "Next"
+  hi: "Hi %{user_name}"
   app:
     english: "English"
     vietnamese: "Vietnamese"
@@ -58,3 +59,11 @@ en:
     settings: "Settings"
     log_out: "Log out"
     remember_me: "Remember me on this computer"
+  account_activations:
+    subject: "Account activation"
+    account_activated!: "Account activated!"
+    invalid_activation_link: "Invalid activation link"
+    account_not_activated: "Account not activated. Check your email for the activation link."
+    please_check_email: "Please check your email to activate your account."
+    welcome_to_app: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
