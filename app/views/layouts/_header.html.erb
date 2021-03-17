@@ -7,7 +7,8 @@
       <li><%= link_to t("_header.home_link"), home_path %></li>
       <li><%= link_to t("_header.help_link"), help_path %></li>
       <% if logged_in? %>
-        <li><%= link_to current_user.name, "#" %></li>
+        <li><%= link_to t("_header.users_link"), users_path %></li>
+        <li><%= link_to current_user.name, current_user%></li>
         <li class="dropdown pull-right">
           <%= link_to "#", class: "dropdown-toggle", "data-toggle": "dropdown" do %>
             <%= t("_header.account") %>
@@ -15,7 +16,7 @@
           <% end %>
           <ul class="dropdown-menu">
             <li><%= link_to t("sessions.profile"), current_user %></li>
-            <li><%= link_to t("sessions.settings"), "#" %></li>
+            <li><%= link_to t("sessions.settings"), edit_user_path(current_user) %></li>
             <li class="divider"></li>
             <li> <%= link_to t("sessions.log_out"), logout_path, method: :delete %></li>
           </ul>

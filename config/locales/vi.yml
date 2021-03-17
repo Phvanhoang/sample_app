@@ -2,6 +2,8 @@ vi:
   sample_app: "Sample App"
   base_title: "Ruby on Rails Tutorial Sample App"
   welcome_to_the_sample_app!: "Chào mừng đến sample app!"
+  previous: "Trước"
+  next: "Sau"
   app:
     english: "Tiếng anh"
     vietnamese: "Tiếng việt"
@@ -9,6 +11,7 @@ vi:
     home_link: "Trang chủ"
     help_link: "Trợ giúp"
     log_in_link: "Đăng nhập"
+    users_link: "Người dùng"
     account: "Tài khoản"
   home:
     title: "Trang chủ"
@@ -34,10 +37,19 @@ vi:
     the_form_contains_errors:
       one: "Biêủ mẫu chứa 1 error"
       other: "Biêủ mẫu chứa %{count} lỗi"
-  errors:
     user_not_found!: "Không tìm thấy người dùng!"
-    the_form_contains: "Biêủ mẫu chứa"
-    error: "lỗi"
+    delete: "Xoá"
+    user_deleted_mess: "Người dùng đã bị xoá"
+    user_deleted_failed: "Xoá thất bại"
+    you_sure?: "Bạn chắc chắn muốn xoá?"
+    edit_header: "Chỉnh sửa thông tin cá nhân"
+    edit_title: "Chỉnh sưả người dùng"
+    change_gravatar: "Thay đổi"
+    save_changes: "Lưu thay đổi"
+    profile_updated_mess: "Thông tin đã được cập nhật"
+    index_title: "Tất cả người dùng"
+    index_header: "Tất cả người dùng"
+    please_log_in: "Vui lòng đăng nhập"
   sessions:
     log_in: "Đăng nhập"
     new_user?: "Chưa có tài khoản?"
