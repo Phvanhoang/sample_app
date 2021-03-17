@@ -1,17 +1,18 @@
 class SessionsController < ApplicationController
-  before_action :load_user_email, only: [:create]
+  before_action :load_user_email, only: :create
 
   def new; end
 
   def create
     if @user.authenticate params[:session][:password]
-      log_in @user
-      if params[:session][:remember_me] == "1"
-        remember @user
+      if @user.activated?
+        log_in @user
+        params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
+        redirect_back_or @user
       else
-        forget @user
+        flash[:warning] = t("account_activations.account_not_activated")
+        redirect_to root_path
       end
-      redirect_back_or @user
     else
       login_fail
     end
@@ -19,7 +20,7 @@ class SessionsController < ApplicationController
 
   def destroy
     log_out if logged_in?
-    redirect_to root_url
+    redirect_to root_path
   end
 
   private

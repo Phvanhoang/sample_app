@@ -4,6 +4,7 @@ vi:
   welcome_to_the_sample_app!: "Chào mừng đến sample app!"
   previous: "Trước"
   next: "Sau"
+  hi: "Xin chào %{user_name}"
   app:
     english: "Tiếng anh"
     vietnamese: "Tiếng việt"
@@ -58,3 +59,11 @@ vi:
     settings: "Cài đặt"
     log_out: "Đăng xuất"
     remember_me: "Lưu thông tin đăng nhập"
+  account_activations:
+    subject: "Kích hoạt tài khoản"
+    account_activated!: "Tài khoản đã được kích hoạt!"
+    invalid_activation_link: "Liên kết không khả dụng"
+    account_not_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email để kích hoạt."
+    please_check_email: "Kiểm tra email để kích hoạt tài khoản của bạn."
+    welcome_to_app: "Chào mừng đến Sample App! Nhấn vào đường dẫn bên dưới để kích hoạt tài khoản của bạn:"
+    activate: "Kích hoạt"
