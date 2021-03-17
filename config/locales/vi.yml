@@ -51,6 +51,7 @@ vi:
     index_title: "Tất cả người dùng"
     index_header: "Tất cả người dùng"
     please_log_in: "Vui lòng đăng nhập"
+    unallowable_user: "Bạn không được quyền cho phép thực hiện tác vụ này"
   sessions:
     log_in: "Đăng nhập"
     new_user?: "Chưa có tài khoản?"
@@ -85,3 +86,19 @@ vi:
     two_hours_expire: "Dường dẫn nà sẽ hết hạn trong 2 giờ."
     ignore_email: "Nếu bạn không muốn yêu cầu đặt lại mật khẩu, hãy bỏ qua email này và mật khâủ của bạn sẽ vẫn như cũ."
     invalid_link: "Đường dẫn không khả dụng"
+  micropost:
+    micropost_created!: "Bài đăng đã được tạo!"
+    micropost_created_failed!: "Tạo bài viết không thành công"
+    micropost_deleted: "Bài dăng đã bị xoá"
+    micropost_deleted_failed: "Xoá thất bại"
+    must_valid_image_format: "phải đúng định dạng ảnh"
+    must_less_than: "phải nhỏ hơn %{size}MB"
+    time_post: "Đăng %{time} trước."
+    feed_header: "Micropost Feed"
+    post_count:
+      one: "1 bài đăng"
+      other: "%{count} bài đăng"
+    compose: "Viết bài..."
+    post: "Đăng"
+    view_my_profile: "xem trang cá nhân"
+    maximum_file_alert: "Kích thước file tối đa là 5MB. Vui lòng chọn file có kích thước nhỏ hơn."

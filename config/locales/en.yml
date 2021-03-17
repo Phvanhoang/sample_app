@@ -51,6 +51,7 @@ en:
     index_title: "All users"
     index_header: "All users"
     please_log_in: "Please log in"
+    unallowable_user: "You can't be allow to operate this task"
   sessions:
     log_in: "Log in"
     new_user?: "New user?"
@@ -85,3 +86,19 @@ en:
     two_hours_expire: "This link will expire in two hours."
     ignore_email: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
     invalid_link: "Invalid link"
+  micropost:
+    micropost_created!: "Micropost created!"
+    micropost_created_failed!: "Micropost created failed"
+    micropost_deleted: "Micropost deleted"
+    micropost_deleted_failed: "Micropost deleted failed"
+    must_valid_image_format: "must be a valid image format"
+    must_less_than: "should be less than %{size}MB"
+    time_post: "Post %{time} ago."
+    feed_header: "Micropost Feed"
+    post_count:
+      one: "1 micropost"
+      other: "%{count} microposts"
+    compose: "Compose new micropost..."
+    post: "Post"
+    view_my_profile: "view my profile"
+    maximum_file_alert: "Maximum file size is 5MB. Please choose a smaller file."

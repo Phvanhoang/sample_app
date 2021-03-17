@@ -8,6 +8,12 @@
 
     <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+    <%= javascript_pack_tag "handle_image_size", "data-turbolinks-track": "reload" %>
+    <script>
+      var language = "<%= I18n.locale %>";
+      I18n.translations = <%== I18n::JS.filtered_translations.to_json %>;
+    </script>
+
   </head>
 
   <body>
