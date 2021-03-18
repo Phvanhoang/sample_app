@@ -10,3 +10,11 @@ user:
     size: 80
 reset_password:
   time_expired: 2
+micropost:
+  content:
+    max_length: 140
+  image:
+    size_lt: 5
+    hsize_limit: 200
+    wsize_limit: 200
+  page: 10
