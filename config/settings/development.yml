@@ -8,3 +8,5 @@ user:
     min_length: 6
   gravatar:
     size: 80
+reset_password:
+  time_expired: 2
