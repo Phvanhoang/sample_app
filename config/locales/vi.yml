@@ -102,3 +102,11 @@ vi:
     post: "Đăng"
     view_my_profile: "xem trang cá nhân"
     maximum_file_alert: "Kích thước file tối đa là 5MB. Vui lòng chọn file có kích thước nhỏ hơn."
+    microposts: "Bài đăng"
+  following:
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
+    relationship_not_found!: "Không tồn tại quan hệ!"
+    followed_user_not_found!: "Không tìm được người muốn theo dõi!"
