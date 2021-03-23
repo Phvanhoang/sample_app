@@ -102,3 +102,11 @@ en:
     post: "Post"
     view_my_profile: "view my profile"
     maximum_file_alert: "Maximum file size is 5MB. Please choose a smaller file."
+    microposts: "Microposts"
+  following:
+    following: "Following"
+    followers: "Followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    relationship_not_found!: "Relationship not found!"
+    followed_user_not_found!: "Followed user not found!"
